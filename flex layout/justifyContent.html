@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify Content</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            background-color: aquamarine;
+            gap: 10px;
+        }
+
+        .part{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            background-color: orange;
+        }
+
+        .card{
+            background-color: black;
+            color: white;
+            padding: 25px 50px;
+            font-size: 1.5em;
+        }
+
+        #start{
+            justify-content: flex-start;
+        }
+
+        #center{
+            justify-content: center;
+        }
+
+        #end{
+            justify-content: flex-end;
+        }
+        #space-between{
+            justify-content: space-between;
+        }
+        #space-around{
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="part" id="start">
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+        </div>
+        <div class="part" id="center">
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+        </div>
+        <div class="part" id="end">
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+        </div>
+        <div class="part" id="space-between">
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+        </div>
+        <div class="part" id="space-around">
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+        </div>
+    </div>
+</body>
+</html>

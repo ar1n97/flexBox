@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex wrap</title>
+    <style>
+        .part{
+            display: flex;
+            background-color: bisque;
+            flex-direction: row;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        #part-two{
+            flex-wrap: wrap;
+        }
+
+        .card{
+            background-color: black;
+            color: white;
+            padding: 25px 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="part" id="part-one">
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+        </div>
+        <div class="part" id="part-two">
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: bisque;
+            gap: 10px;
+        }
+        .card{
+            background-color: black;
+            color: white;
+            padding: 50px 100px;
+            font-size: 3em;
+        }
+        #one{
+            order: 1;
+        }
+        #two{
+            order: 2;
+        }
+        #three{
+            order: 3;
+        }
+        #four{
+            order: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="one">one</div>
+        <div class="card" id="four">four</div>
+        <div class="card" id="two">two</div>
+        <div class="card" id="three">three</div>
+    </div>
+</body>
+</html>
