@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex dir practice</title>
+    <!--style starts here-->
+    <style>
+        .container{
+            display: inline-flex;
+            color: white;
+            border: 5px solid gold;
+            flex-direction: column;
+        }
+
+        .card{
+            flex-basis: 100px;
+            padding-right: 50px;
+        }
+
+        #red{background-color: red;}
+        #orange{background-color: orange;}
+        #yellow{background-color: yellow;}
+        #green{background-color: green;}
+        #blue{background-color: blue;}
+        #indigo{background-color: indigo;}
+        #purple{background-color: purple;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="red">Red</div>
+        <div class="card" id="orange">Orange</div>
+        <div class="card" id="yellow">Yellow</div>
+        <div class="card" id="green">Green</div>
+        <div class="card" id="blue">Blue</div>
+        <div class="card" id="indigo">Indigo</div>
+        <div class="card" id="purple">Purple</div>
+    </div>
+</body>
+</html>

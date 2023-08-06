@@ -1,0 +1,41 @@
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.part{
+    background-color: bisque;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card{
+    padding: 20px 30px;
+}
+
+#one{
+    background-color: red;
+}
+#two{
+    background-color: blue;
+}
+#three{
+    background-color: green;
+}
+#four{
+    background-color: yellow;
+}
+#five{
+    background-color: orange;
+}
+#six{
+    background-color: coral;
+}
+#seven{
+    background-color: purple;
+}
+#eight{
+    background-color: goldenrod;
+}

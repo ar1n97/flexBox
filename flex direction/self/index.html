@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex dir</title>
+    <style>
+        .fdr{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            background-color: lightgoldenrodyellow;
+        }
+        .card-row{
+            padding: 10px 25px;
+        }
+
+        #red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #purple{
+            background-color: purple;
+        }
+        #coral{
+            background-color: coral;
+        }
+
+        .fdc{
+            display: flex;
+            flex-direction: column;
+            background-color: lightskyblue;
+            /* flex-basis: 100px; */
+        }
+        .card-col{
+            padding: 10px 25px;
+        }
+
+        #red-c{
+            background-color: red;
+        }
+        #green-c{
+            background-color: green;
+        }
+        #yellow-c{
+            background-color: yellow;
+        }
+        #blue-c{
+            background-color: blue;
+        }
+        #purple-c{
+            background-color: purple;
+        }
+        #coral-c{
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="fdr">
+        <h2 class="card-row" id="red">red</h2>
+        <h2 class="card-row" id="green">green</h2>
+        <h2 class="card-row" id="yellow">yello</h2>
+        <h2 class="card-row" id="blue">blue</h2>
+        <h2 class="card-row" id="purple">purple</h2>
+        <h2 class="card-row" id="coral">coral</h2>
+    </div>
+
+    <div class="fdc">
+        <h2 class="card-col" id="red-c">red</h2>
+        <h2 class="card-col" id="green-c">green</h2>
+        <h2 class="card-col" id="yellow-c">yellow</h2>
+        <h2 class="card-col" id="blue-c">blue</h2>
+        <h2 class="card-col" id="purple-c">purple</h2>
+        <h2 class="card-col" id="coral-c">coral</h2>
+    </div>
+</body>
+</html>
